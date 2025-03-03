@@ -11,7 +11,7 @@ app.use("/api/v1/auth", authRouter);
 app.use("api/v1/subscriptions", subscriptionRouter);
 
 app.get("/", (req, res) => {
-  console.log("Hello World");
+  console.log("Hellooo World");
   res.status(200).json({ message: "hello world" });
 });
 
